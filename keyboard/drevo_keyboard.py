@@ -92,8 +92,8 @@ w1 = KeyboardButton('Жүсіпбек')
 w2 = KeyboardButton('Есенбек')
 w3 = KeyboardButton('Дүйсенбек')
 
-kb_er = ReplyKeyboardMarkup(resize_keyboard=True)
-kb_er.add(w1).row(w2, w3)
+kb_erk = ReplyKeyboardMarkup(resize_keyboard=True)
+kb_erk.add(w1).row(w2, w3)
 
 ###
 t1 = KeyboardButton('Тоқпақ')

@@ -277,7 +277,7 @@ async def p5(message: types.Message, state: FSMContext):
 
 #@dp.message_handlers(text='Балалары', state=FSMshej.n6)
 async def p6(message: types.Message, state: FSMContext):
-    await bot.send_message(message.from_user.id, 'Еркіш Балалары:', reply_markup=kb_er)
+    await bot.send_message(message.from_user.id, 'Еркіш Балалары:', reply_markup=kb_erk)
     await FSMshej.o6.set()
 
 #@dp.message_handlers(text='Балалары', state=FSMshej.n7)
@@ -971,6 +971,10 @@ async def w16(message: types.Message, state: FSMContext):
 
 #@dp.message_handlers(text='Балалары', state=FSMshej.c26)
 async def w17(message: types.Message, state: FSMContext):
+    await bot.send_message(message.from_user.id, 'Берділбек Балалары:', reply_markup=kb_ber)
+
+#@dp.message_handlers(text='Балалары', state=FSMshej.c27)
+async def w18(message: types.Message, state: FSMContext):
     await bot.send_message(message.from_user.id, 'Берділбек Балалары:', reply_markup=kb_ber)
 
 
