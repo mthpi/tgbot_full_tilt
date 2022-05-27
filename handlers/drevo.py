@@ -975,7 +975,7 @@ async def w17(message: types.Message, state: FSMContext):
 
 #@dp.message_handlers(text='Балалары', state=FSMshej.c27)
 async def w18(message: types.Message, state: FSMContext):
-    await bot.send_message(message.from_user.id, 'Берділбек Балалары:', reply_markup=kb_ber)
+    await bot.send_message(message.from_user.id, 'Махамбет Балалары:', reply_markup=)
 
 
 
